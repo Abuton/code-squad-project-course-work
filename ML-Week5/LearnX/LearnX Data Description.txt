@@ -1,0 +1,45 @@
+Data Dictionary
+
+Train (Historical Sales Data)
+
+Variable Definition
+
+ID Unique Identifier for a row
+Day_No Day Number
+Course_ID Unique ID for a course
+Course_Domain Course Domain (Development, Finance etc.)
+Course_Type Course/Program/Degree
+Short_Promotion Whether Short Term Promotion is Live
+Public_Holiday Regional/Public Holiday
+Long_Promotion Whether Long Term Promotion is Live for the course
+User_Traffic Number of customers landing on the course page
+Competition_Metric A metric defining the strength of competition
+Sales (Target) Total Course Sales
+Test (Next 60 Days)
+
+This file contains the store and day number for which the participant needs to submit predictions/forecasts
+
+Variable Definition
+
+ID Unique Identifier for a row
+Day_No Day Number
+Course_ID Unique ID for a course
+Course_Domain Course Domain (Development, Finance etc.)
+Course_Type Course/Program/Degree
+Short_Promotion Whether Short Term Promotion is Live
+Public_Holiday Regional/Public Holiday
+Long_Promotion Whether Long Term Promotion is Live for the course
+Competition_Metric A metric defining the strength of competition
+Sample Submission
+
+This file contains the exact submission format for the forecasts. Please submit csv file only.
+
+Variable Definition ID Unique Identifier for a row Sales (Target) Total Course Sales predicted from the test set
+
+Evaluation
+
+The evaluation metric for this competition is 1000*RMSLE where RMSLE is Root of Mean Squared Logarithmic Error across all entries in the test set.
+
+Public and Private Split
+
+Test data is further divided into Public (First 20 Days) and Private (Next 40 Days)
