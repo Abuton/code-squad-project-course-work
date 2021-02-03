@@ -9,3 +9,5 @@ In the series of projects which include unsupervised models, they will be using 
       * ML Explanation
       * Result and Findings Communication
       * Report Generation and Explanation
+      
+Python crash course, Pandas skill test, matplotlib crash course and lots of other ML projects. if you have suggestions to make this repository better please make a PR
